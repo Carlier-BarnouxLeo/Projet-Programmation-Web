@@ -1,25 +1,113 @@
-header {
-    background-color: rgb(22, 55, 103);
-    display: grid;
-    margin: 0;
-    padding: 0;
-    color: white;
+@media screen and (min-width:0) and (max-width:600px){
+    header {
+        background-color: rgb(22, 55, 103);
+        display: flex;
+        flex-direction: column  ;
+        margin: 0;
+        padding: 0;
+        color: white;
+    }
+    img#efrei {
+        filter: brightness(0) invert(1);
+        padding: 5px;
+        margin: 5px;
+        width: 200px;
+    }
+    .citation {
+        font-style: italic;
+        text-align: center;
+        padding: 10px;
+        font-size: 1.2em;
+    }
+    a {
+        color: white;
+    }
+    a:hover {
+        font-style: italic;
+    }
 }
-img {
-    filter: brightness(0) invert(1);
-    padding: 5px;
-    margin: 5px;
-    width: 200px;
+
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    header {
+        background-color: rgb(22, 55, 103);
+        display: flex;
+        margin: 0;
+        padding: 0;
+        color: white;
+    }
+    img#efrei {
+        filter: brightness(0) invert(1);
+        padding: 5px;
+        margin: 5px;
+        width: 200px;
+    }
+    .citation {
+        font-style: italic;
+        text-align: center;
+        padding: 10px;
+        font-size: 1.2em;
+    }
+    a {
+        color: white;
+    }
+    a:hover {
+        font-style: italic;
+    }
 }
-.citation {
-    font-style: italic;
-    text-align: center;
-    padding: 10px;
-    font-size: 1.2em;
+
+@media screen and (min-width: 768px) {
+    header {
+        background-color: rgb(22, 55, 103);
+        display: grid;
+        margin: 0;
+        padding: 0;
+        color: white;
+    }
+    img#efrei {
+        filter: brightness(0) invert(1);
+        padding: 5px;
+        margin: 5px;
+        width: 200px;
+    }
+    .citation {
+        font-style: italic;
+        text-align: center;
+        padding: 10px;
+        font-size: 1.2em;
+    }
+    a {
+        color: white;
+    }
+    a:hover {
+        font-style: italic;
+    }
 }
-a {
-    color: white;
+
+@media print {
+    header {
+        background-color: white;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        color: white;
+    }
+    img#efrei {
+        padding: 5px;
+        margin: 5px;
+        width: 200px;
+    }
+    .citation {
+        font-style: italic;
+        text-align: center;
+        padding: 10px;
+        font-size: 1.2em;
+    }
+    a {
+        color: white;
+    }
+    a:hover {
+        font-style: italic;
+    }
 }
-a:hover {
-    font-style: italic;
-}
+
