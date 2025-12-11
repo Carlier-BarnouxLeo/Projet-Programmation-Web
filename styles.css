@@ -1,0 +1,168 @@
+body{
+    background-color: white;
+    font-family: Arial;
+    text-align: justify;
+}
+
+footer{
+    padding: 1%;
+    height: 40%;
+    width: 98%;
+}
+
+header{
+    background-image: url('../img/campus_img.webp');
+    padding: 1%;
+    height: 50%;
+    width: 98%;
+}
+
+
+header img{
+    height: 30%;
+    width: 30%;
+    border-radius: 8%;
+}
+
+section{
+    margin-bottom: 2%;
+    margin-top: 2%;
+    background-color: rgb(39, 131, 68);
+    padding: 3px;
+}
+
+h1{
+    color : black;
+}
+
+h2{
+    color:rgb(12, 32, 28)
+}
+
+section h2 ~ h3{
+    color:rgb(69, 255, 218)
+}
+
+
+nav{
+    display: block;
+    color : black;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+form {
+    max-width: 90%;
+    margin: auto; 
+    background: rgb(236, 236, 236);
+    padding: 4%;
+    border-radius: 4%;
+}
+
+fieldset {
+    padding: 2%;
+    margin-bottom: 1%;
+    border-radius: 12%;
+}
+
+legend {
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+ul, ol {
+    margin-top: 2%;
+    padding-left: 4%
+}
+
+li {
+    margin-bottom: 0.5%;
+}
+
+
+label {
+    color : black;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+select {
+    padding: 1%;
+    border: 2% solid #000000;
+    width: 60%;
+}
+
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 0.5%;
+}
+
+
+button {
+    padding: 1% 5%;
+    background: #227b25;
+    color: white;
+    border: 20% solid black;
+    font-size: 90%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8%;
+}
+
+
+.large_input {
+    width: 100%;          
+    padding: 2%;
+    border: 1% solid #ccc;
+    border-radius: 12%;
+    height: 80%;   
+}
+
+
+button:hover {
+    background: #45a049;
+}
+
+
+tbody{
+    background-color: rgba(255, 255, 255, 0.756);
+    color : black;
+
+}
+
+th{
+    color : black;
+    background-color: #ccc;
+    position : relative;
+    text-align : center;
+}
+
+td{
+    color: black;
+    text-align: left;
+    padding :1%;
+}
+
+#result {
+    width: 100%;
+    table-layout: fixed;
+}
+
+#result th:first-child,
+#result td:first-child {
+    width: 10%;
+}
+
+#result th:last-child,
+#result td:last-child {
+    width: 90%;
+}
+
+
+.quiz{
+    display: none;
+}

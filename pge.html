@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <link rel="stylesheet" href="../css/style_index.css">
+    <title>pge</title>
+    <met charset="UTF-8">
+      
+</head>
+
+<body>
+  <header>
+    <img src = "../img/Efrei-logo-couleur.png" alt = "Logo Efrei">
+
+    <h3>Efrei Grande École du numérique : Programme Grande École</h3>
+    <nav>
+        <a href = "./index.html">Accueil</a>
+        <a href="./formations.html">Formations</a>
+        <a href="./A_propos.html">À Propos</a>
+
+    </nav>
+
+  </header>
+
+    <section class="presentationG">
+      <div class="noms">
+        <h1 class="nom_pr">Programme Grande École</h1>
+        <h1 class="nom_scd"> - Cycle ingénieur</h1>
+      </div>
+
+      <p class="info1">Habilités par la 
+        <span class="engras">Commission des Titres d’Ingénieur (CTI)</span>, 
+        nos programmes allient sciences, technologies, compétences humaines et pédagogie par projet afin de former des ingénieurs innovants, engagés et responsables.
+      </p>
+      <br>
+
+      <p class="info1">L'Efrei propose 
+        <span class="engras">5 prépas intégrées</span> offrant une 
+        <span class="engras">formation généraliste</span> qui combine solides connaissances scientifiques et compétences techniques, indispensables pour poursuivre en cycle ingénieur :
+      </p>
+      <ul>
+        <li>1re année de Prépa Scientifique</li>
+        <li>1re année de Prépa Scientifique en anglais</li>
+        <li>1re année de Prépa Scientifique en rentrée décalée (février 2026)</li>
+        <li>1re année de Prépa Bio &amp; Numérique</li>
+        <li>1re année de Prépa PLUS</li>
+      </ul>
+      <p class="info1">L'Efrei propose dans la continuité des prépas intégrées un
+        <span class="engras">cycle ingénieur</span> offrant une 
+        <span class="engras">formation spécialisée du numérique</span> d'une durée de trois ans.
+      </p>
+      <br>
+    </section>
+
+    <section class="partie">
+      <div class="noms">
+        <h2 class="nom_pr">Prépa Scientifique</h2>
+        <h2 class="nom_scd"> - 2 ans</h2>
+      </div>
+
+      <p class="info1">
+        La Prépa Scientifique de l’Efrei est une formation 
+        <span class="engras">généraliste en sciences et technologies</span>, 
+        destinée aux bacheliers généraux à dominante scientifique.
+      </p>
+
+      <p class="info1">
+        Elle met l’accent sur les 
+        <span class="engras">mathématiques, l’informatique, la physique</span>
+        et les compétences d’ingénierie, tout en incluant des projets, des travaux pratiques 
+        et un <span class="engras">stage dès la première année</span>.
+      </p>
+      <button class="ajout_tab_btn" id="btn_prepSC" onclick="affichage_tab_prepSc()">En savoir plus</button>
+      <br>
+    </section>
+
+    <section class="partie">
+      <div class="noms">
+        <h2 class="nom_pr">Prépa Scientifique en Anglais</h2>
+        <h2 class="nom_scd"> - 2 ans</h2>
+      </div>
+
+      <p class="info1">
+        Cette prépa propose le même programme que la Prépa Scientifique classique,
+        mais dispensé <span class="engras">100% en anglais</span>.
+      </p>
+
+      <p class="info1">
+        Elle s’adresse aux étudiants souhaitant suivre un 
+        <span class="engras">parcours international</span> 
+        tout en développant de solides bases scientifiques et techniques.
+      </p>
+      <button class="ajout_tab_btn" id="btn_prepSC" onclick="affichage_tab_prepSc()">En savoir plus</button>
+      <br>
+    </section>
+
+    <section class="partie">
+      <div class="noms">
+        <h2 class="nom_pr">Prépa Scientifique – Rentrée décalée</h2>
+        <h2 class="nom_scd"> - Semestre intensif</h2>
+      </div>
+
+      <p class="info1">
+        Cette prépa offre un 
+        <span class="engras">parcours intensif de février à juin</span>,
+        destiné aux étudiants en réorientation ou ayant déjà commencé un cursus scientifique post-bac.
+      </p>
+
+      <p class="info1">
+        À l’issue du semestre, les étudiants rejoignent directement la 
+        <span class="engras">2ᵉ année de prépa</span> 
+        à la rentrée suivante.
+      </p>
+      <button class="ajout_tab_btn" id="btn_prepSc" onclick="affichage_tab_prepSc()">En savoir plus</button>
+      <br>
+    </section>
+
+      <section class="partie_tab" id="tab_prepSc" style="display: none;">
+      <h2>Prépa Scientifique - Informations</h2>
+      <table >
+        <tr>
+          <th>Catégorie</th>
+          <th>Détails</th>
+        </tr>
+        <tr>
+          <td>Présentation</td>
+          <td>Ce cycle en deux ans prépare nos étudiants en combinant formation scientifique et technique avec une formation générale et professionnelle de l’ingénieur.</td>
+        </tr>
+        <tr>
+          <td>Prérequis</td>
+          <td>Bac général avec spécialité Mathématiques + 1 spécialité scientifique (PHYSIQUE-CHIMIE/NSI/SVT/SI)<br>
+              Bac général avec 2 spécialités scientifiques (hors mathématiques) + Maths complémentaires
+          </td>
+        </tr>
+        <tr>
+          <td>Admissions Prépa 1 (P1)</td>
+          <td>Candidature sur Parcoursup via le Concours Puissance Alpha<br>
+              Évaluation : étude de dossier + épreuves écrites<br>
+              Résultats communiqués sur Parcoursup
+          </td>
+        </tr>
+        <tr>
+          <td>Admissions Prépa 2 (P2)</td>
+          <td>Candidature via Puissance Alpha Rebond<br>
+              Évaluation : Étude du dossier / entretien de motivation si admissible (30mn)<br>
+              Résultats par mail sous 10 jours après l’entretien
+          </td>
+        </tr>
+        <tr>
+          <td>Infos pratiques</td>
+          <td>Campus de Paris ou Bordeaux<br>
+              Rentrée décalée possible<br>
+              Enseignement en français ou en anglais<br>
+              Formation accessible aux personnes en situation de handicap<br>
+              Diplôme accessible par la VAE
+          </td>
+        </tr>
+        <tr>
+          <td>Programmes</td>
+          <td>
+            <strong>1ère année – Rentrée classique :</strong> Informatique (180h), Mathématiques (180h), Formation générale (165h), Physique et électronique (180h), Stage découverte<br>
+            <strong>1ère année – Rentrée décalée :</strong> Formation générale (90h), Informatique (120h), Mathématiques (120h), Physique et électronique (120h)<br>
+            <strong>2e année :</strong> Formation générale (180h), Informatique (180h), Mathématiques (180h), Physique et électronique (180h), Stages de découverte
+          </td>
+        </tr>
+      </table>
+    </section>
+
+    <section class="partie">
+      <div class="noms">
+        <h2 class="nom_pr">Prépa Bio & Numérique</h2>
+        <h2 class="nom_scd"> - 2 ans</h2>
+      </div>
+
+      <p class="info1">
+        Cette prépa associe les 
+        <span class="engras">sciences du vivant</span> 
+        aux <span class="engras">technologies numériques</span>,
+        idéal pour les étudiants attirés par les disciplines hybrides.
+      </p>
+
+      <p class="info1">
+        Elle permet d’acquérir une double compétence en biologie et informatique,
+        ouvrant la voie à des parcours d’ingénieurs interdisciplinaires.
+      </p>
+      <button class="ajout_tab_btn" id="btn_pepBN" onclick="affichage_tab_prepBN()">En savoir plus</button>
+      <br>
+    </section>
+
+    <section class="partie_tab" id="tab_prepBN" style="display: none;">
+      <h2>Prépa Bio & Numérique - Informations</h2>
+      <table >
+        <tr>
+          <th>Catégorie</th>
+          <th>Détails</th>
+        </tr>
+        <tr>
+          <td>Présentation</td>
+          <td>Cette prépa s’adresse aux étudiants intéressés par la biologie, la santé et les sciences du numérique. Avec l’explosion des données dans les sciences du vivant, les entreprises et laboratoires recherchent des profils capables de les analyser. En associant informatique, biologie, mathématiques et physique, cette formation pluridisciplinaire développe des compétences transversales très recherchées.</td>
+        </tr>
+        <tr>
+          <td>Prérequis</td>
+          <td>Bac général avec spécialité Mathématiques + 1 spécialité scientifique (PHYSIQUE-CHIMIE/NSI/SVT/SI)<br>
+              Bac général avec 2 spécialités scientifiques (hors mathématiques) + Maths complémentaires
+          </td>
+        </tr>
+        <tr>
+          <td>Admissions Prépa 1 (P1)</td>
+          <td>Candidature sur Parcoursup via le Concours Puissance Alpha<br>
+              Évaluation : étude de dossier + épreuves écrites<br>
+              Résultats communiqués sur Parcoursup
+          </td>
+        </tr>
+        <tr>
+          <td>Admissions Prépa 2 (P2)</td>
+          <td>Candidature via le concours Puissance Alpha Rebond<br>
+              Évaluation : Étude du dossier + entretien de motivation si admissible (30mn)<br>
+              Résultats par mail sous 10 jours après l’entretien
+          </td>
+        </tr>
+        <tr>
+          <td>Infos pratiques</td>
+          <td>Campus de Paris<br>
+              Formation accessible aux personnes en situation de handicap
+          </td>
+        </tr>
+        <tr>
+          <td>Programmes</td>
+          <td>
+            <strong>1ère année :</strong> Formation générale (165h), Biologie (90h), Informatique (180h), Mathématiques (180h), Physique et électronique (120h)<br>
+            <strong>2e année :</strong> Formation générale (180h), Biologie (90h), Informatique (180h), Mathématiques (180h), Projet transverse (30h)
+          </td>
+        </tr>
+      </table>
+    </section>
+
+
+    <section class="partie">
+      <div class="noms">
+        <h2 class="nom_pr">Prépa PLUS</h2>
+        <h2 class="nom_scd"> - 2 ans (renforcée)</h2>
+      </div>
+
+      <p class="info1">
+        La Prépa PLUS s’adresse aux bacheliers 
+        <span class="engras">non scientifiques ou issus de STI2D</span>.
+      </p>
+
+      <p class="info1">
+        Grâce à une <span class="engras">remise à niveau progressive</span> 
+        et un <span class="engras">accompagnement renforcé</span>, 
+        elle permet d’acquérir les bases nécessaires pour réussir en cycle ingénieur.
+      </p>
+
+      <button class="ajout_tab_btn" id="btn_prepP" onclick="affichage_tab_prepP()">En savoir plus</button>
+      <br>
+    </section>
+
+    <section class="partie_tab" id="tab_prepP" style="display: none;">
+      <h2>Prépa PLUS - Informations</h2>
+      <table >
+        <tr>
+          <th>Catégorie</th>
+          <th>Détails</th>
+        </tr>
+        <tr>
+          <td>Présentation</td>
+          <td>Destinée aux lycéens en terminale avec spécialité mathématiques et spécialité non scientifique, ou issus de STI2D, la Prépa PLUS est une passerelle vers le cycle ingénieur de l’Efrei. Grâce à un parcours renforcé en mathématiques et physique, vous intégrez l’école avec toutes les clés pour réussir votre formation d’ingénieur.</td>
+        </tr>
+        <tr>
+          <td>Prérequis</td>
+          <td>Bac général avec spécialité Mathématiques + 1 spécialité non scientifique (PHYSIQUE-CHIMIE/NSI/SVT/SI)<br>
+              Bac général avec 1 spécialité scientifique + 1 spécialité non scientifique + Mathématiques complémentaires<br>
+              Bac STI2D
+          </td>
+        </tr>
+        <tr>
+          <td>Admissions Prépa 1 (P1)</td>
+          <td>Candidature sur Parcoursup via le Concours Puissance Alpha<br>
+              Évaluation : étude de dossier + épreuves écrites<br>
+              Résultats communiqués sur Parcoursup
+          </td>
+        </tr>
+        <tr>
+          <td>Admissions Prépa 2 (P2)</td>
+          <td>Candidature via le concours Puissance Alpha Rebond<br>
+              Évaluation : Étude du dossier + entretien de motivation si admissible (30mn)<br>
+              Résultats par mail sous 10 jours après l’entretien
+          </td>
+        </tr>
+        <tr>
+          <td>Infos pratiques</td>
+          <td>Campus de Paris<br>
+              6h de cours supplémentaires en Maths et en Physique chaque semaine pendant 2 ans<br>
+              Formation accessible aux personnes en situation de handicap
+          </td>
+        </tr>
+        <tr>
+          <td>Programmes</td>
+          <td>
+            <strong>1ère année :</strong> Formation générale (120h), Informatique (210h), Mathématiques (315h), Physique et électronique (225h), Projets transverses (45h)<br>
+            <strong>2e année :</strong> Formation générale (195h), Informatique (180h), Mathématiques (270h), Physique & électronique (270h), Projets transverses (15h)
+          </td>
+        </tr>
+      </table>
+    </section>
+
+    <section class="partie">
+      <div class="noms">
+        <h2 class="nom_pr">Cycle Ingénieur</h2>
+        <h2 class="nom_scd"> - 3 ans</h2>
+      </div>
+
+      <p class="info1">
+        Le cycle ingénieur de l’Efrei vise à former des professionnels capables de combiner 
+        <span class="engras">expertise scientifique et technologique</span> avec 
+        <span class="engras">compétences managériales et humaines</span>.
+      </p>
+
+      <p class="info1">
+        Les étudiants développent des compétences dans des domaines variés tels que 
+        <span class="engras">l’informatique, le numérique, la cybersécurité, les data sciences</span> 
+        tout en menant des projets concrets et un stage obligatoire chaque année.
+      </p>
+      <button class="ajout_tab_btn" id="btn_cycleI" onclick="affichage_tab_cycleI()">En savoir plus</button>
+      <br>
+    </section>
+
+
+    <section class="partie_tab" id="tab_InfoCycI" style="display: none;">
+      <h2>Cycle Ingénieur - Informations</h2>
+      <table >
+        <tr>
+          <th>Catégorie</th>
+          <th>Détails</th>
+        </tr>
+        <tr>
+          <td>Présentation</td>
+          <td>Formation sur 3 ans visant l’acquisition de compétences scientifiques, techniques, managériales et humaines pour devenir un ingénieur polyvalent et innovant.</td>
+        </tr>
+        <tr>
+          <td>Prérequis</td>
+          <td>Admission après prépa intégrée de l’Efrei ou via admissions parallèles selon le profil de l’étudiant.</td>
+        </tr>
+        <tr>
+          <td>Admissions</td>
+          <td>Via le concours Puissance Alpha pour les étudiants de prépa intégrée ou via dossier et entretien pour les admissions parallèles.</td>
+        </tr>
+        <tr>
+          <td>Infos pratiques</td>
+          <td>Campus de Paris et Bordeaux<br>
+              Possibilité de mobilité internationale<br>
+              Stages obligatoires chaque année<br>
+              Formation accessible aux personnes en situation de handicap
+          </td>
+        </tr>
+        <tr>
+          <td>Programmes</td>
+          <td>
+            <strong>1ère année :</strong> Fondamentaux scientifiques et techniques, projets transverses, stage découverte<br>
+            <strong>2e année :</strong> Spécialisations, approfondissement technique, stage long en entreprise<br>
+            <strong>3e année :</strong> Projet de fin d’études, spécialisation avancée, insertion professionnelle ou poursuite en master
+          </td>
+        </tr>
+      </table>
+    </section>
+
+    <section class="partie_tab" id="tab_filiereCycI" style="display: none;">
+      <h2>Filières du Cycle Ingénieur</h2>
+      <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+          <th>Filière</th>
+          <th>Description</th>
+          <th>Compétences clés</th>
+          <th>Stage / Projet</th>
+        </tr>
+        <tr>
+          <td>Informatique et Systèmes d’Information</td>
+          <td>Formation approfondie en développement logiciel, architecture système et cybersécurité.</td>
+          <td>Programmation, sécurité informatique, cloud, gestion de projets IT</td>
+          <td>Stage technique ou projet innovant en entreprise</td>
+        </tr>
+        <tr>
+          <td>Data Science & Intelligence Artificielle</td>
+          <td>Analyse de données, apprentissage automatique et intelligence artificielle appliquée aux entreprises.</td>
+          <td>Machine learning, statistiques, analyse de données, visualisation</td>
+          <td>Projet data ou stage en entreprise</td>
+        </tr>
+        <tr>
+          <td>Cyber sécurité et Réseaux</td>
+          <td>Protection des systèmes et réseaux, analyse de risques et cybersécurité avancée.</td>
+          <td>Réseaux, cryptographie, audit sécurité, gestion des risques</td>
+          <td>Projet sécurité ou stage en entreprise</td>
+        </tr>
+        <tr>
+          <td>Innovation & Management</td>
+          <td>Développement des compétences transverses et managériales pour piloter des projets techniques.</td>
+          <td>Gestion de projet, leadership, entrepreneuriat, communication</td>
+          <td>Projet transverse ou stage de gestion de projet</td>
+        </tr>
+      </table>
+    </section>
+      
+    <footer>
+      <p>©️2025 Philippe BROCHIER | Léo CARLIER-BARNOUX.</p>
+      <p>Tous droits réservés.</p>
+      <a href = "./A_propos.html">À propos</a>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
