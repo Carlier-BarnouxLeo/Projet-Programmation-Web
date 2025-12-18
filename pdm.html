@@ -3,7 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="../css/style_index.css">
-    <title>pex tech&num</title>
+    <title>Programme Digital & Management</title>
     <met charset="UTF-8">
       
 </head>
@@ -11,10 +11,13 @@
 
 <body>
   <header>
-    <img src = "../img/Efrei-logo-couleur.png" alt = "Logo Efrei">
+    <div class="header-top">
+      <img src = "../img/Efrei-logo-couleur.png" alt = "Logo Efrei" id="efrei">
 
-    <h3>Efrei Grande École du numérique : Programme Experts - Tech & Numérique</h3>
-    <nav>
+      <h3>Efrei Grande École du numérique : Programme Experts - Tech & Numérique</h3>
+    </div>
+    
+      <nav>
         <a href = "./index.html">Accueil</a>
         <a href="./formations.html">Formations</a>
         <a href="./A_propos.html">À Propos</a>
@@ -22,26 +25,166 @@
     </nav>
   </header>
 
-      <section class="presentationG">
+  <img src="../img/Classe.jpeg" alt="parcours ingé" class="img_presentation">
+
+
+    <section class="presentationG">
+      <div class="noms">
+        <h1 class="nom_pr">Programme </h1>
+        <h1 class="nom_scd"> - Digital & Management</h1>
+      </div>
+      <p class="info1">
+        Le pôle <b>Digital & Management</b> forme des experts du marketing, de la communication,
+        de la stratégie digitale et de la transformation numérique des organisations.
+      </p>
+      <button class="ajout_tab_btn" id="btn_DM" onclick="affichage_tab_general('tab_bachDM')">Bachelors +</button>
+      <button class="ajout_tab_btn" id="btn_DM" onclick="affichage_tab_general('tab_mastDM')">Master/Mastères +</button>
+      <br>
+    </section>
+
+
+    <section class="partie_tab" id="tab_bachDM" style="display: none;">
+      <h2>Bachelors – Digital & Management </h2>
+      <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+          <th>Programme</th><th>Description</th><th>Compétences clés</th><th>Stage / Projet</th>
+        </tr>
+        <tr>
+          <td>Bachelor Marketing digital & communication</td>
+          <td>Compétences pratiques en marketing numérique et communication digitale.</td>
+          <td>Marketing web, SEO/SEA, communication digitale</td>
+          <td>Projet marketing / Stage en entreprise</td>
+        </tr>
+        <tr>
+          <td>Bachelor Ingénierie Marketing & data</td>
+          <td>Allie data et marketing pour piloter des stratégies business basées sur la donnée.</td>
+          <td>Data marketing, analytics, stratégie produit</td>
+          <td>Projet analytique / Stage</td>
+        </tr>
+        <tr>
+          <td>Bachelor Communication digitale & internationale</td>
+          <td>Focus sur la communication numérique dans un contexte globalisé.</td>
+          <td>Communication cross-canal, contenu international</td>
+          <td>Projet com’ / Stage</td>
+        </tr>
+        <tr>
+          <td>Bachelor Management & stratégie digitale</td>
+          <td>Stratégie et management des projets numériques (marketing, gestion, innovation).</td>
+          <td>Stratégie digitale, gestion d’équipe</td>
+          <td>Projet stratégique / Stage</td>
+        </tr>
+        <tr>
+          <td>Bachelor Business & nouvelles technologies</td>
+          <td>Compétences mixtes business et technologies appliquées à l’entreprise.</td>
+          <td>Business tech, innovation, management</td>
+          <td>Projet entreprise / Stage</td>
+        </tr>
+      </table>
+    </section>
+
+    <section class="partie_tab" id="tab_mastDM" style="display: none;">
+      <h2>Masters/Mastères – Digital & Management </h2>
+      <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+          <th>Programme</th><th>Description</th><th>Compétences clés</th><th>Stage / Projet</th>
+        </tr>
+        <tr>
+          <td>Mastère Marketing digital & management</td>
+          <td>Approfondissement des stratégies marketing digital et leadership managérial.</td>
+          <td>Marketing stratégique, gestion de projet digital</td>
+          <td>Projet marketing / Alternance</td>
+        </tr>
+        <tr>
+          <td>Mastère Communication & stratégie digitale</td>
+          <td>Expertise en communication digitale et dispositifs stratégiques de marque.</td>
+          <td>Brand content, communication stratégique</td>
+          <td>Projet communication / Alternance</td>
+        </tr>
+        <tr>
+          <td>Mastère Business innovation & nouvelles technologies</td>
+          <td>Compétences en business innovation et adoption des technologies émergentes.</td>
+          <td>Innovation, business digital</td>
+          <td>Projet business / Alternance</td>
+        </tr>
+        <tr>
+          <td>Mastère Data management, marketing & AI</td>
+          <td>Synergie entre data, marketing et intelligence artificielle pour décision stratégique.</td>
+          <td>Data marketing, IA pour business</td>
+          <td>Projet data-business / Alternance</td>
+        </tr>
+        <tr>
+          <td>Mastère Management & transformation digitale</td>
+          <td>Gestion de la transformation numérique des organisations.</td>
+          <td>Transformation digitale, conduite du changement</td>
+          <td>Projet transformation / Alternance</td>
+        </tr>
+        <tr>
+          <td>Mastère UX Design</td>
+          <td>Spécialisation en conception d’expérience utilisateur pour produits digitaux.</td>
+          <td>UX research, design thinking, prototypage</td>
+          <td>Projet UX / Alternance</td>
+        </tr>
+        <tr>
+          <td>Master International Communication & Technology</td>
+          <td>Expertise internationale en communication et technologies numériques.</td>
+          <td>Communication globale, tech management</td>
+          <td>Projet international / Stage</td>
+        </tr>
+      </table>
+    </section>
+
+    <section class="presentationG">
       <div class="noms">
         <h1 class="nom_pr">Programme </h1>
         <h1 class="nom_scd"> - BTS SIO</h1>
       </div>
 
       <p class="info1">En plus des classes prépas, l'Efrei propose le 
-        <span class="engras">BTS Services Informatiques aux Organisations (SIO)</span>,
+        <b>BTS Services Informatiques aux Organisations (SIO)</b>,
          formant les élèves pour qu'ils deviennent des professionnels capables de gérer des systèmes informatiques, développer des applications et administrer des réseaux. 
       </p>
+      <button class="ajout_tab_btn" id="btn_btsSIO" onclick="affichage_tab_general('tab_btsSIO')">En savoir plus</button>
       <br>
     </section>
 
-    <section>
 
+    <section class="partie_tab" id="tab_btsSIO" style="display: none;">
+      <h2>BTS Services Informatiques aux Organisations </h2>
+      <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+          <th>Filière / Option</th>
+          <th>Description</th>
+          <th>Compétences clés</th>
+          <th>Stage / Projet</th>
+        </tr>
+        <tr>
+          <td>Option SISR <br>(Solutions d’Infrastructure, Systèmes et Réseaux)</td>
+          <td>Formation orientée vers la gestion des infrastructures réseau, l’installation, la configuration, la maintenance et la sécurité des systèmes et réseaux.</td>
+          <td>Administration systèmes & réseaux, configuration serveurs, cybersécurité d’infrastructures, support technique</td>
+          <td>Projet infrastructure / Stage en entreprise (support, admin réseaux)</td>
+        </tr>
+        <tr>
+          <td>Option SLAM <br>(Solutions Logicielles et Applications Métiers)</td>
+          <td>Formation centrée sur le développement d’applications, conception logicielle et solutions métier (web, mobile, applications).</td>
+          <td>Programmation, conception de bases de données, développement web & applicatif, maintenance logicielle</td>
+          <td>Projet logiciel / Stage en entreprise (développement, intégration)</td>
+        </tr>
+        <tr>
+          <td>Tronc commun BTS SIO</td>
+          <td>Enseignements partagés sur les bases de l’informatique, cybersécurité, culture économique et communication professionnelle.</td>
+          <td>Support & mise à disposition de services informatiques, cybersécurité, communication, mathématiques pour l’informatique</td>
+          <td>Travaux pratiques et projets interdisciplinaires, stages obligatoires en BTS 1 & BTS 2</td>
+        </tr>
+      </table>
     </section>
+
 
     <footer>
       <p>©️2025 Philippe BROCHIER | Léo CARLIER-BARNOUX.</p>
       <p>Tous droits réservés.</p>
       <a href = "./A_propos.html">À propos</a>
     </footer>
+    <script src="../js/script.js"></script>
 </body>
+
+</html>
