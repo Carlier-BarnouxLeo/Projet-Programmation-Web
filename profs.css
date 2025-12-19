@@ -1,0 +1,29 @@
+#liste-profs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+#infos {
+    display: block;
+    text-align: center;
+    margin: 10px;
+    border: solid 1px white;
+    background-color: rgb(22, 55, 103);
+    color: white;
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;
+}
+
+#infos:hover{
+    
+}
+
+#photo-prof{
+    border-radius: 20%;
+}   
