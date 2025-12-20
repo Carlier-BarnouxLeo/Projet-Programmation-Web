@@ -1,0 +1,32 @@
+{
+    "profs": [
+        {
+            "nom" : "Hamidi Mohamed",
+            "image" : "hamidi.jpg",
+            "mail" : "mohamed.hamidi@efrei.fr",
+            "listedeclasses" : [],
+            "diplomes" : []
+        },
+        {
+            "nom" : "Cherifa Ben Khelil",
+            "image" : "cherifa.jpg",
+            "mail" : "cherifa.ben-khelil@efrei.fr",
+            "listedeclasses" : [],
+            "diplomes" : []
+        },
+        {
+            "nom" : "Mourad Kmimech",
+            "image" : "kmimech.jpg",
+            "mail" : "mourad.kmimech@efrei.fr",
+            "listedeclasses" : [],
+            "diplomes" : []
+        },
+        {
+            "nom" : "Lena Trebaul",
+            "image" : "lena.jpg",
+            "mail" : "lena.trebaul@efrei.fr",
+            "listedeclasses" : [],
+            "diplomes" : []
+        }
+    ]
+}
