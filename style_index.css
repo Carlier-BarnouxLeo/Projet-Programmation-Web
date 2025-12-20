@@ -82,6 +82,16 @@
     a:hover {
         font-style: italic;
     }
+    .images{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 300px;
+    }
+    .images img{
+        margin: 50px;
+        border-radius: 20%;
+    }
 }
 
 @media print {
@@ -110,4 +120,62 @@
         font-style: italic;
     }
 }
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+caption{
+    font-weight: bolder;
+    
+}
 
+/* Style de base pour le tableau */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+/* En-têtes du tableau */
+thead th {
+  background-color: #333;
+  color: white;
+  text-align: left;
+  padding: 12px 15px;
+  font-weight: bold;
+}
+
+/* Cellules du tableau */
+td, th {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+/* Lignes du corps du tableau */
+tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+
+/* Dernière ligne */
+tbody tr:last-child {
+  border-bottom: 2px solid #333;
+}
+
+/* Alignement du texte */
+td {
+  text-align: left;
+}
+
+/* Pour les nombres, alignement à droite */
+td.number {
+  text-align: right;
+}
+
+/* Cellule de pied de tableau */
+tfoot td {
+  background-color: #f8f8f8;
+  font-weight: bold;
+  padding: 12px 15px;
+}
